@@ -39,6 +39,7 @@ dependencies {
     api(files("libs/sardine-1.0.2.jar"))
     api(files("libs/simple-xml-2.7.1.jar"))
     implementation(files("libs/mmkv-annotation.jar"))
+    implementation("com.github.rburgst:okhttp-digest:2.7")
 
     api(Dependencies.Kotlin.stdlib_jdk7)
     api(Dependencies.Kotlin.coroutines_core)
